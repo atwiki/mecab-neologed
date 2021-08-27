@@ -1,8 +1,5 @@
 # syntax=docker/dockerfile:experimental
 FROM php:7.4-fpm-alpine3.13 AS build
-MAINTAINER nownabe
-
-RUN apk add --update --no-cache build-base
 
 ENV MECAB_VERSION 0.996
 ENV IPADIC_VERSION 2.7.0-20070801
